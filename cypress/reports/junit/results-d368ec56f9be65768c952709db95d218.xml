@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="8.0760" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2021-11-14T05:12:28" tests="0" file="cypress/integration/Pecode_autotests/pecode-test.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Pecode Automation test task" timestamp="2021-11-14T05:12:28" tests="2" time="7.9910" failures="0">
+    <testcase name="Pecode Automation test task Verify if all elements are presented on page" time="2.3300" classname="Verify if all elements are presented on page">
+    </testcase>
+    <testcase name="Pecode Automation test task Check the login tab" time="2.8760" classname="Check the login tab">
+    </testcase>
+  </testsuite>
+</testsuites>

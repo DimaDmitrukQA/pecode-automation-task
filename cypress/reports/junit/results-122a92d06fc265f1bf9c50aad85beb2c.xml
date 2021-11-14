@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="8.6190" tests="1" failures="0">
-  <testsuite name="Root Suite" timestamp="2021-11-14T03:25:44" tests="0" file="cypress/integration/Pecode_autotests/pecode-test.spec.js" time="0.0000" failures="0">
-  </testsuite>
-  <testsuite name="Pecode Automation test task" timestamp="2021-11-14T03:25:44" tests="1" time="8.5070" failures="0">
-    <testcase name="Pecode Automation test task Check the login tab" time="4.7560" classname="Check the login tab">
-    </testcase>
-  </testsuite>
-</testsuites>

@@ -2,7 +2,7 @@ export class url{
 main(){
     cy.visit('https://www.pecodesoftware.com/qa-portal/greet.php')
 }
-new_main(){
+redirected(){
     cy.url().should('eq', 'https://www.pecodesoftware.com/qa-portal/registerlogin/registerlogin.php')
 }
 }

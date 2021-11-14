@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
-<testsuites failures="0" errors="0" tests="1">
-  <testsuite name="Root Suite" timestamp="2021-11-14T03:25:44" tests="0" file="cypress/integration/Pecode_autotests/pecode-test.spec.js" time="0.0000" failures="0"/>
-  <testsuite name="Pecode Automation test task" timestamp="2021-11-14T03:25:44" tests="1" time="8.5070" failures="0">
-    <testcase name="Pecode Automation test task Check the login tab" time="4.7560" classname="Check the login tab"/>
+<testsuites failures="0" errors="0" tests="2">
+  <testsuite name="Root Suite" timestamp="2021-11-14T05:12:28" tests="0" file="cypress/integration/Pecode_autotests/pecode-test.spec.js" time="0.0000" failures="0"/>
+  <testsuite name="Pecode Automation test task" timestamp="2021-11-14T05:12:28" tests="2" time="7.9910" failures="0">
+    <testcase name="Pecode Automation test task Verify if all elements are presented on page" time="2.3300" classname="Verify if all elements are presented on page"/>
+    <testcase name="Pecode Automation test task Check the login tab" time="2.8760" classname="Check the login tab"/>
   </testsuite>
 </testsuites>

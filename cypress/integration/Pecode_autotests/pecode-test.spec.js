@@ -7,9 +7,12 @@ describe('Pecode Automation test task', () => {
     beforeEach('Open the main page', () => {
         urls.main();
         // Verify if url was changed
-        urls.new_main();
+        urls.redirected();
+    })
+    it('Verify if all elements are presented on page', () => {
+        logForm.elements();
     })
     it('Check the login tab', () => {
-        logForm.basicReg();
+        logForm.auth('TestUser123', 'testpass001');
     })
 })
