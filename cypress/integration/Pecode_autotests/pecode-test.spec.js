@@ -1,7 +1,7 @@
 /// <reference types = "cypress" />
-import { logForm } from 'C:/Users/Роман/Desktop/Automation task/cypress/support/Page_Objects/loginForm'
+import { logForm } from '/cypress/support/Page_Objects/loginForm'
 
-import { urls } from 'C:/Users/Роман/Desktop/Automation task/cypress/support/Page_Objects/links'
+import { urls } from '/cypress/support/Page_Objects/links'
 
 describe('Pecode Automation test task', () => {
     beforeEach('Open the main page', () => {
