@@ -1,8 +1,13 @@
 <?xml version="1.0"?>
-<testsuites failures="0" errors="0" tests="2">
-  <testsuite name="Root Suite" timestamp="2021-11-14T05:12:28" tests="0" file="cypress/integration/Pecode_autotests/pecode-test.spec.js" time="0.0000" failures="0"/>
-  <testsuite name="Pecode Automation test task" timestamp="2021-11-14T05:12:28" tests="2" time="7.9910" failures="0">
-    <testcase name="Pecode Automation test task Verify if all elements are presented on page" time="2.3300" classname="Verify if all elements are presented on page"/>
-    <testcase name="Pecode Automation test task Check the login tab" time="2.8760" classname="Check the login tab"/>
+<testsuites failures="1" errors="0" tests="3">
+  <testsuite name="Root Suite" timestamp="2021-11-14T10:43:34" tests="0" file="cypress/integration/pecode-test.spec.js" time="0.0000" failures="0"/>
+  <testsuite name="Pecode Automation test task" timestamp="2021-11-14T10:43:34" tests="3" time="10.4350" failures="1">
+    <testcase name="Pecode Automation test task Check the login tab" time="2.3610" classname="Check the login tab"/>
+    <testcase name="Pecode Automation test task Verify that all the elements are present on page" time="0.6760" classname="Verify that all the elements are present on page"/>
+    <testcase name="Pecode Automation test task Make sure a screenshot is taken when the test fails" time="0.0000" classname="Make sure a screenshot is taken when the test fails">
+      <failure message="Timed out retrying after 4000ms: expected 'Username' to equal 'Failed'" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected 'Username' to equal 'Failed'
+    at loginForm.testFailed (https://www.pecodesoftware.com/__cypress/tests?p=cypress\integration\pecode-test.spec.js:157:63)
+    at Context.eval (https://www.pecodesoftware.com/__cypress/tests?p=cypress\integration\pecode-test.spec.js:113:24)]]></failure>
+    </testcase>
   </testsuite>
 </testsuites>
