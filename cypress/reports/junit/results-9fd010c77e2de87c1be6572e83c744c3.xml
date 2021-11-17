@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="15.7900" tests="3" failures="1">
+  <testsuite name="Root Suite" timestamp="2021-11-17T13:06:19" tests="0" file="cypress/integration/pecode-test.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Pecode Automation test task" timestamp="2021-11-17T13:06:19" tests="3" time="15.7140" failures="1">
+    <testcase name="Pecode Automation test task Check the login tab" time="4.7570" classname="Check the login tab">
+    </testcase>
+    <testcase name="Pecode Automation test task Verify that all the elements are present on page" time="0.5680" classname="Verify that all the elements are present on page">
+    </testcase>
+    <testcase name="Pecode Automation test task Make sure a screenshot is taken when the test fails" time="0.0000" classname="Make sure a screenshot is taken when the test fails">
+      <failure message="Timed out retrying after 4000ms: expected &apos;Username&apos; to equal &apos;Failed&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected 'Username' to equal 'Failed'
+    at loginForm.testFailed (https://www.pecodesoftware.com/__cypress/tests?p=cypress\integration\pecode-test.spec.js:157:63)
+    at Context.eval (https://www.pecodesoftware.com/__cypress/tests?p=cypress\integration\pecode-test.spec.js:113:24)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
